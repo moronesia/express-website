@@ -14,7 +14,7 @@ app.set("views", "./views")
 app.set("view angine", "ejs")
 
 app.get("/", (req, res) => {
-    res.render("home.ejs")
+    res.render("index.ejs")
 })
 
 app.get("/skills", (req, res) => {
