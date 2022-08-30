@@ -2,6 +2,7 @@ const express = require("express")
 const req = require("express/lib/request")
 const res = require("express/lib/response")
 const path = require("path")
+const port = process.env.PORT || 3000;
 
 const app = express()
 
@@ -35,6 +36,6 @@ app.get("/contact", (req, res) => {
 
 
 
-app.listen(3000, ()=>{
+app.listen(port, () => {
     console.log("server at http://localhost:3000")
 })
