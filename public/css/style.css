@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*---navbar start---*/
+
+nav {
+  background-color: #000;
+}
+
+span.navbar-toggler-icon {
+  background-color: #EF4D06;
+}
+
+a.navbar-brand {
+  color: #EF4D06;
+}
+
+a.nav-link {
+  color: #EF4D06;
+}
+
+a.nav-link:hover {
+  color: #fff;
+}
+
+/*---navbar end---*/
+
+/*---header start---*/
+
+.jumbotron {
+
+  height: 533px;
+  background-image: url("/img/bennerpng.png");
+  background-size: cover ;
+  background-repeat: no-repeat;
+  position: relative;
+  width: auto;
+
+}
+
+h1.display-4 {
+  font-family: sans-serif;
+  font-weight: 25px;
+  color: #fff;
+  padding-top: 170px;
+
+    
+}
+
+h1 span {
+  color: #EF4D06;
+}
+
+p.satu {
+  font-family: sans-serif;
+  color: #fff;
+}
+
+button.btn.btn-primary {
+  background-color: #EF4D06;
+  border: none;
+  margin-top: 10px;
+}
+
+/*---header end---*/
+
+
+/*---skills start---*/
+
+h1.satu {
+  text-align: center;
+  padding-top: 70px;
+  margin-bottom: 30px;
+}
+
+.card-body {
+  box-shadow: 7px 5px 5px;
+  border-radius: 8px;
+}
+
+h5.card-title {
+  color: #EF4D06;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*---skills end---*/
+
+/*---others start---*/
+
+h1.dua {
+  padding-top: 70px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h5.judul {
+  font-family: inherit;
+  font-weight: bold;
+  margin-left: 5px;
+  color: #EF4D06;
+}
+
+p.text {
+  margin-left: 5px;
+  font-family: sans-serif;
+}
+
+/*---others end---*/
+
+
+/*---friends start---*/
+
+h1.tiga {
+  text-align: center;
+  padding-top: 70px;
+  margin-bottom: 40px;
+}
+
+hr.garis {
+  height: 2px;
+  background-color: #000;
+  border: none;
+}
+
+h5.heading {
+  color: #EF4D06;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p.alamat {
+  text-align: center;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+/*---friends end---*/
+
+
+/*---contact start---*/
+
+form {
+
+ background-color: #000;
+ padding-top: 20px;
+ padding-bottom: 5px;
+}
+
+label.form-label {
+  font-family: sans-serif;
+  color: #fff;
+}
+
+h1.empat {
+  text-align: center;
+  padding-top: 41px;
+  margin-top: 30px;
+}
+
+button.btn.tombol.mb-3 {
+  background-color: #EF4D06;
+  font-family: sans-serif;
+  font-weight: inherit;
+  border: none;
+}
+
+button.btn.tombol.mb-3:hover{
+  color: #fff;
+}
+
+
+/*---contact end---*/
